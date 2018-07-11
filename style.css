@@ -1,15 +1,21 @@
 /*So this is the section where we talk about the body and background*/
 
-body {
-  background-image: url("https://ibb.co/eN5HBo");
-  background-color: #e2dcd7;
+body, html {
+    height: 100%;
 }
 
-h1 { 
-  text-align: center;
-  
-  
-} 
+.bg { 
+    /* The image used */
+    background-image: url("img_girl.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
